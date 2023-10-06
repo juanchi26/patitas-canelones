@@ -13,6 +13,7 @@
 
 <body>
     <header>
+        <!-- inicio Barra de navegación-->
         <nav class="navbar container navbar-expand-lg p-1 mt-2">
             <div class="container">
                 <img src="/patitas-canelones/img/pata.png" width="60px" alt="foto de patita" class="ml-3" id="logo">
@@ -23,37 +24,48 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav w-100 justify-content-evenly align-items-center">
                         <li class="nav-item">
-                            <a class="nav-link" href="#inicio"> <img src="/patitas-canelones/img/perro.png" width="30px"> Inicio</a>
+                            <a class="nav-link" href="#inicio"> <img src="/patitas-canelones/img/perro.png"
+                                    width="30px"> Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#sobreNosotros"><img src="/patitas-canelones/img/equipo.png" width="30px"> Sobre
+                            <a class="nav-link" href="#sobreNosotros"><img src="/patitas-canelones/img/equipo.png"
+                                    width="30px"> Sobre
                                 Nosotros
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#donaciones"><img src="/patitas-canelones/img/donacion.png" width="30px">
+                            <a class="nav-link" href="#donaciones"><img src="/patitas-canelones/img/donacion.png"
+                                    width="30px">
                                 Donaciones</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contacto"> <img src="/patitas-canelones/img/correo-de-contacto.png" width="30px">
+                            <a class="nav-link" href="#castraciones"> <img
+                                    src="/patitas-canelones/img/correo-de-contacto.png" width="30px">
+                                Castraciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto"> <img
+                                    src="/patitas-canelones/img/correo-de-contacto.png" width="30px">
                                 Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <!-- Fin Barra de navegación-->
     </header>
 
 
     <main>
-        <section id="inicio" class="container">
+        <!--Inicio de la pagina -->
+        <section id="inicio" class="container mt-3">
             <div class="d-flex justify-content-evenly mt-4 align-items-center row" id="content">
                 <div class="col">
-                    <h1>Patitas Canarias <img src="/patitas-canelones/img/pata.png" width="30px"></h1>
-                    
+                    <h1>Patitas Canarias <img id="logoh1" src="/patitas-canelones/img/pata.png" width="30px"></h1>
+
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione et quam fugit. Dolore earum
                         labore nam officia dolor unde animi!</p>
-                        
+
                     <a href="https://www.instagram.com/patitascanarias" target="_blank" class="redes"><svg
                             xmlns="http://www.w3.org/2000/svg" height="2.2em"
                             viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
@@ -66,7 +78,8 @@
                             <path
                                 d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
                         </svg></a>
-                        <a class="btn btn-success" href="https://wa.me/598094299180?text=Me interesa ser voluntario/a!!" target="_blank">Sumate como Voluntario/a</a>
+                    <a class="btn btn-success" href="https://wa.me/598094299180?text=Me interesa ser voluntario/a!!"
+                        target="_blank">Sumate como Voluntario/a</a>
                 </div>
                 <img class="col-lg-8 col-sm-10" src="/patitas-canelones/img/inicio.jpg" width="600px" id="imgInicio">
 
@@ -74,41 +87,87 @@
         </section>
         <hr class="container">
         <section class="container" id="sobreNosotros">
-            <div class="d-flex justify-content-center row">
-                <div class="col-lg-5 col-sm-12 carousel slide carousel-fade" id="carousel" data-bs-ride="carousel">
+            <div class="d-flex justify-content-center row ">
+                <!-- inicio del carrousel de imagenes en Nosotros-->
+                <div class="col-lg-4 carousel slide carousel-fade" id="carousel" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="3000">
-                            <img src="/patitas-canelones/img/voluntaria.jpg" alt="imagen de una voluntaria" class="voluntaria" width="100%" height="600px">
+                            <img src="/patitas-canelones/img/voluntaria.jpg" alt="imagen de una voluntaria"
+                                class="voluntaria">
                         </div>
                         <div class="carousel-item" data-bs-interval="3000">
-                            <img src="/patitas-canelones/img/voluntaria2.jpg" alt="imagen de una voluntaria" class="voluntaria" width="100%" height="600px">
+                            <img src="/patitas-canelones/img/voluntaria2.jpg"
+                                alt="imagen de dos voluntarias bañando un perrito" class="voluntaria">
                         </div>
                         <div class="carousel-item" data-bs-interval="3000">
-                            <img src="/patitas-canelones/img/galeria.jpg" alt="imagen de una voluntaria" class="voluntaria" width="100%" height="600px">
+                            <img src="/patitas-canelones/img/galeria.jpg"
+                                alt="imagen de unos llaveros colgando de patitas canarias" class="voluntaria">
                         </div>
                         <div class="carousel-item" data-bs-interval="3000">
-                            <img src="/patitas-canelones/img/voluntario3.png" alt="imagen de una voluntaria" class="voluntaria" width="100%" height="600px">
+                            <img src="/patitas-canelones/img/voluntario3.png" alt="imagen de una voluntaria"
+                                class="voluntaria">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
-                      </button>
+                    </button>
                 </div>
+                <!-- fin del carrousel de imagenes en Nosotros-->
                 <div class="col-lg-7">
-                    <p class="descripcion">Somos una protectora de animales sin fines de lucro ubicada en Canelones
-                        ciudad, llevamos mas de 10 años ayudando todo tipo de animales, bla bla bla bla Lorem ipsum
-                        dolor sit amet consectetur. </p>
+                    <h2 class="d-flex justify-content-center titulo mt-3">¿Quienes somos?</h2>
+                    <div class="d-flex justify-content-center">
+                        <p class="descripcion">Somos una protectora de animales sin fines de lucro ubicada en Canelones
+                            ciudad, llevamos mas de 10 años ayudando todo tipo de animales, bla bla bla bla Lorem ipsum
+                            dolor sit amet consectetur. </p>
+                    </div>
                 </div>
+
+            </div>
+            <hr class="container">
+            <div class="d-flex justify-content-center align-items-center row mt-5" id="castraciones">
+                <div class="col-lg-7 justify-content-center">
+                    <h2 class="d-flex justify-content-center titulo">Realizamos Castraciones!</h2>
+                    <div class="d-flex justify-content-center row">
+                        <p class="descripcion col-lg-12">Una vez por mes realizamos castraciones de perros y gatos a
+                            precio super economico de la mano de el <a href="https://vec.com.uy/" target="_blank">Dr
+                                Mario Quinero</a></p>
+                        <a class="btn btn-success col-lg-7 col-sm-5"
+                            href="https://wa.me/598094325116?text=Buenas! quisiera agendar a mi mascota para la próxima jornada de castración!"
+                            target="_blank">Agendarse para castracion</a>
+                        <button type="button" class="btn btn-success mt-2 mb-2 col-lg-7 col-sm-5 " data-bs-toggle="modal" data-bs-target="#exampleModalLong">Cuidados post-operatorios</button>
+                    </div>
+                </div>
+                <img src="/patitas-canelones/img/castraciones.jpg" class="col-lg-4 mt-2" id="castra" width="100%"
+                    height="400px">
             </div>
         </section>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalLong" tabindex="-1"
+            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="/patitas-canelones/img/castraciones.jpg" width="100%" alt="imagen que explica los cuidados necesarios para el post operatorio">
+                    </div>
+                    <div class="modal-footer">
+                        <a class="btn btn-success" href="/patitas-canelones/img/equipo.png" download="cuidados post-operatorios">Descargar</a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fin modal-->
         <section id="donaciones">
             <div>
-                <p>donaciones</p>
+
             </div>
         </section>
         <section id="contacto"></section>
