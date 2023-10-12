@@ -70,12 +70,19 @@ p > a:hover {
     text-decoration: underline;
 }
 
-@media (max-width:400px) and (min-width: 330px){
-    #logoh1{
-        display: none;
+@media (max-width:400px) and (min-width: 330px){ 
+    h1{
+        font-size: 43px;
     }
+    
 }
 
 #inicio {
     height: 100%;
+}
+
+.descripcion2{
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    text-wrap: balance;
 }
