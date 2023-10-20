@@ -138,17 +138,17 @@
                                 Mario Quinero</a>
                         </p>
                         <br>
-                        <h3 class="descripcion2">Costo de la Castracion $650</h3>
+                        <h3 class="descripcion2">Costo de la Castracion $<span id="costoCastracion">650</span></h3>
 
                     </div>
                     <div class="d-flex justify-content-center align-items-center row">
-                    <a class="btn btn-success mt-2 mb-2 col-6"
-                        href="https://wa.me/598094325116?text=Buenas! quisiera agendar a mi mascota para la próxima jornada de castración!"
-                        target="_blank">AGENDARSE PARA CASTRACIONES</a>
-                    <button type="button" class="btn btn-success mt-2 mb-2 col-6 mx-2" data-bs-toggle="modal"
-                        data-bs-target="#postoperacion">CUIDADOS POST-OPERATORIOS</button>
-                    <button type="button" class="btn btn-success mt-2 mb-2 col-6" data-bs-toggle="modal"
-                        data-bs-target="#preoperacion">PRE-OPERATORIO</button>
+                        <a class="btn btn-success mt-2 mb-2 col-6"
+                            href="https://wa.me/598094325116?text=Buenas! quisiera agendar a mi mascota para la próxima jornada de castración!"
+                            target="_blank">AGENDARSE PARA CASTRACIONES</a>
+                        <button type="button" class="btn btn-success mt-2 mb-2 col-6 mx-2" data-bs-toggle="modal"
+                            data-bs-target="#postoperacion">CUIDADOS POST-OPERATORIOS</button>
+                        <button type="button" class="btn btn-success mt-2 mb-2 col-6" data-bs-toggle="modal"
+                            data-bs-target="#preoperacion">PRE-OPERATORIO</button>
                     </div>
                 </div>
                 <img src="/patitas-canelones/img/castraciones.jpg" class="col-lg-4 mt-2" id="castra" width="100%"
@@ -186,7 +186,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        
+
 
                         <p class="descripcion2">El animal debe ir con 12 horas de ayuno.</p>
                         <p class="descripcion2 mt-4">Llevar abrigo para después de la cirugía porque la anestesia
@@ -209,10 +209,91 @@
             </div>
         </div>
         <!--Fin modal-->
-
+        <hr class="container">
         <section id="donaciones">
-            <div>
-
+            <div class="container">
+                <h2 class="titulo mt-4 d-flex justify-content-center">Donaciones!</h2>
+                <p class="d-flex justify-content-center preguntas">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos necessitatibus placeat quidem laboriosam corporis veritatis, odio tempora dolore accusantium id aliquid est odit? Voluptate, sunt corporis vitae veritatis culpa amet veniam error nesciunt adipisci saepe ad nam exercitationem labore ab?</p>
+                <div class="d-flex justify-content-center row mx-5">
+                    <div class="col-lg-6 justify-content-center">
+                        <div class="mt-4" id="abitab">
+                            <img src="/patitas-canelones/img/abitab.png" width="180px" alt="logo de la empresa abitab">
+                            <p class="dona">Colectivos Abitab - 135711</p>
+                            <div class="d-flex justify-content-start row">
+                                <details class="col-lg-6 col-sm-10">
+                                    <summary>¿Como hago para donar por el colectivo abitab?</summary>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus reiciendis
+                                        eius
+                                        illum
+                                        autem tempora hic inventore impedit vero deleniti ullam.</p>
+                                </details>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div id="mercadopago">
+                            <img class="mt-4 " src="/patitas-canelones/img/mercadopago1.png" width="100%" id="mercadopagoIMG"
+                                alt="logo de mercado pago con las tarjetas aceptadas">
+                        </div>
+                        <div class="d-flex justify-content-evenly row mt-2">
+                            <a class="btn btn2 btnmercado col-sm-7 " href="#"><img src="/patitas-canelones/img/logo-mercado1.png.png" width="40px"> Donacion Mensual</a>
+                            <a class="btn btn2 btnmercado col-sm-7 mt-2" href="https://www.mercadopago.com.uy/subscriptions/checkout?preapproval_plan_id=2c9380848b2a4561018b2fefcfe802d4" target="_blank"> <img src="/patitas-canelones/img/logo-mercado1.png.png" width="40px"> Donacion Unica</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-5 d-flex justify-content-center row">
+                    <h2 class="d-flex justify-content-center dona">Preguntas Frecuentes</h2>
+                    <div class="accordion col-sm-8 mt-3" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              <strong class="preguntas">¿Para que se usan las donaciones?</strong>
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <strong class="preguntas">¿Que es una donacion Mensual?</strong>
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              <strong class="preguntas">¿Que es una donacion unica?</strong>
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                <strong class="preguntas">¿Puedo donar otra cosa que no sea dinero?</strong>
+                              </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                </div>
             </div>
         </section>
         <section id="contacto"></section>

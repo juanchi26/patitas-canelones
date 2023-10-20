@@ -74,7 +74,9 @@ p > a:hover {
     h1{
         font-size: 43px;
     }
-    
+    #mercadopagoIMG{
+        width: 100%;
+    }
 }
 
 #inicio {
@@ -86,3 +88,63 @@ p > a:hover {
     font-family: "Rubik", sans-serif;
     text-wrap: balance;
 }
+
+.mercadopago{
+    background-color: black;
+    color: #fff;
+    border-radius: 16px;
+}
+
+
+.dona{
+    font-size: 30px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    margin-top: 13px;
+}
+
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+  }
+
+summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+  }
+  
+  details[open] {
+    padding: 0.5em;
+  }
+  
+  details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+  }
+  
+  .btnmercado{
+    background-color: #00AEEF;
+    color: white;
+  }
+
+  .btn2:hover{
+    background-color: #00AEEF;
+    color: white;
+    transform: scale(1.04);
+  }
+  
+  .btn-success:hover{
+    transform: scale(1.04);
+  }
+
+  #navbarNav > a, li:hover{
+    transform: scale(1.15);
+    transition: 0.2s;
+  }
+  .preguntas{
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+  }
