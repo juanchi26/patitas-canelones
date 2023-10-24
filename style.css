@@ -150,3 +150,19 @@ summary {
     font-family: "Rubik", sans-serif;
     font-weight: 400;
   }
+
+  form{
+    max-width: 600px;
+    width: 100%;
+  }
+
+  .inputs{
+     width: 100%;
+     min-width: 350px;
+  }
+
+  #mensaje{
+    width: 100%;
+  }
+
+  
